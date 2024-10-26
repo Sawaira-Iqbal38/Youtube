@@ -1,0 +1,106 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: cursive;
+ }
+ 
+ body {
+     background-color: rgb(233, 223, 209);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+ }
+ 
+ .container {
+     width: 100%;
+     max-width: 500px;
+     border-radius: 10px;
+     background: rgba(18, 82, 71, 0.932);
+     color: aliceblue;
+     box-shadow: 0px 0px 15px 3px rgba(142, 196, 212, 0.932);
+     padding: 20px;
+ }
+ 
+ .box {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap-reverse;
+     gap: 14px;
+ }
+ 
+ .box h1 {
+     font-size: 24px;
+     margin-bottom: 10px;
+ }
+  h1:active::after {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background: radial-gradient(circle, rgba(210, 139, 224, 0.658), transparent 60%);
+     animation: color-rays 0.2s ease-out;
+    }
+    .box h1:hover {
+     @keyframes color-rays {
+         0% {
+           transform: scale(0.6);
+           opacity: 1;
+         }
+         100% {
+           transform: scale(1);
+           opacity: 0;
+         }
+       }
+  }
+ 
+ .Temperature-icon {
+     font-size: 40px;
+     color: antiquewhite;
+ }
+ 
+ #celsius, #fahrenheit, #kelvin {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 30px;
+ }
+ 
+ input {
+     color: rgba(0, 0, 0, 0.815);
+     flex: 2;
+     height: 45px;
+     font-size: 20px;
+     font-weight: 600;
+     padding-left: 12px; /* Adjust padding for better input text alignment */
+     margin: 0 10px; /* Reduced margin for better alignment */
+     border: none;
+     outline: none;
+     border-radius: 6px 4px 4px 6px;
+ }
+ 
+ .btn {
+     margin-top: 20px;
+     text-align: center;
+ }
+ 
+ .btn button {
+     padding: 10px 30px;
+     border: none;
+     outline: none;
+     border-radius: 50%;
+     cursor: pointer;
+     transition: 0.5s;
+     font-size: 15px;
+     font-weight: 700;
+ }
+ 
+ .btn button:hover {
+     background: rgb(111, 160, 111);
+     color: #fff;
+ }
+ 

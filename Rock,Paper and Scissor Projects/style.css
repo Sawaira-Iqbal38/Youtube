@@ -1,0 +1,78 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: cursive;
+}
+
+body {
+     background:  rgb(222, 226, 228) ;
+
+}
+p {
+     background-color: rgb(12, 12, 114);
+     display: flex;
+     justify-content: space-evenly;
+     padding:30px ;
+     color: white;
+     font-size: 30px;
+     font-weight: 800;
+}
+h1 {
+     font-size: 2rem;
+     text-align: center;
+     margin-top: 20px;
+    
+}
+.btns {
+     display: flex;
+     justify-content: center;
+     padding: 25px;
+     margin: 18px;
+
+}
+button {
+     padding: 20px;
+     margin: 0 18px;
+     font-size: 4rem;
+     border: none;
+     border-radius: 50%;
+}
+
+button:hover {
+     opacity: 0.6;
+}
+#rock {
+     background-color: rgb(64, 182, 182);
+}
+#paper {
+     background-color: rgb(155, 165, 64);
+}
+#scissor {
+     background-color: rgb(187, 85, 182);
+    
+    
+}
+#user-score {
+     color: rgb(121, 121, 8);
+
+}
+
+#com-score {
+     color: rgb(143, 13, 13);
+     
+}
+#result {
+     background-color: rgb(12, 12, 114);
+     color: white;
+     padding:  10px 15px;
+     width: 25%;
+     margin-top: 70px;
+     position: relative;
+     left: 50%;
+     text-align: center;
+     transform: translate(-50%);
+     border-radius: 5px;
+     font-size: 25px;
+     font-weight: 500;
+}

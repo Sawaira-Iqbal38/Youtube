@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: Arial, sans-serif;
+    background-color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #0f0d0d; /* Optional */
+    font-size: 2em; /* Optional */
+    
+ }
+.container {
+    
+    
+    
+     background-color: #ffffff;
+     padding: 20px;
+     border-radius: 10px;
+     
+     width: 600px; /* Increased width */
+     box-shadow: 0 0 10px rgba(14, 12, 12, 0.3),
+                 -5px -10px 20px #ffffff;
+    }
+  
+.btns button {
+    width: 75px;
+    height: 50px;
+    font-size: 1em;
+    border-radius: 8px;
+    border: 3px solid #ccc
+   
+}
+
+.btns .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px; /* Increased spacing */
+}
+
+.display input {
+    width: 100%;
+    height: 60px;
+    font-size: 1.5em;
+    text-align: right;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    border: 1x solid rgb(197, 178, 178);
+    margin-bottom: 10px;
+    background-color: rgb(162, 206, 223);
+}
+
+
+.btns button:hover {
+    background-color: rgb(126, 57, 69);
+    color: #fff; /* Improved contrast on hover */
+}
+
+.btns button:active {
+    background-color: rgb(110, 5, 23);
+     transform: (0.5turn)
+}
+ @media (max-width: 500px) {
+       
+        .container {
+            max-width: 90%; /* Adjust max-width */
+        }
+    }
+
+    .btns button {
+        width: 80;
+        height: 40px;
+        font-size: 1em;
+    }
+
+    .display input {
+        height: 50px;
+        font-size: 1.2em;
+        padding: 8px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+
+#eval {
+    background-color: #281eb4;
+    color: #fff;
+}
+
+#eval:hover {
+    background-color: rgb(5, 5, 90);
+}
+#ce {
+    background-color: rgb(94, 214, 94);
+    color: #fff;
+}
+#ce:hover {
+    background-color: green;
+}

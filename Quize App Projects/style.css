@@ -1,0 +1,106 @@
+* {
+     margin: 0;
+     padding: 0;
+     font-family: Georgia, serif;
+     box-sizing: border-box;
+ }
+ 
+ body {
+     background-color: rgb(29, 7, 112);
+     color: rgba(0, 0, 0, 0.726);
+ }
+ 
+ .container {
+     background: rgba(255, 255, 255, 0.849);
+     color: rgba(0, 0, 0, 0.767);
+     width: 65%;
+     max-width: 570px; /* Added 'px' */
+     margin: 40px auto 0;
+     border-radius: 14px;
+     border: 2px solid black;
+     padding: 20px;
+ }
+ 
+ .container h1 {
+     color: black;
+     display: flex; /* Added to center content */
+     justify-content: center; /* Centered horizontally */
+     align-items: center;
+     font-size: 28px;
+     font-weight: 600;
+     border-bottom: 2px solid black;
+     padding-bottom: 18px;
+ }
+ 
+ .quize {
+     padding: 18px 0;
+     margin-bottom: 5px;
+     
+ }
+ #question {
+     font-size: 25px;
+     color: rgba(0, 0, 0, 0.808);
+ }
+ 
+ .answer-buttons .btn {
+     font-size: 18px;
+     font-weight: 600;
+     color: rgba(0, 0, 0, 0.87);
+     padding-left: 15px;
+ }
+ 
+ .correct {
+     background-color: green;
+     color: white;
+ }
+ 
+  .wrong {
+     background-color: rgb(182, 8, 8);
+     color: white;
+ }
+ 
+ #next-btn,
+ #restart-btn {
+     display: flex; /* Added to center content */
+     justify-content: center;
+     align-items: center;
+     margin-top: 25px;
+     padding: 15px 22px;
+     background-color: #150f66;
+     width: 25%;
+     color: white;
+     border: none;
+     cursor: pointer;
+     border-radius: 7px;
+     font-size: 20px;
+     font-weight: 500;
+ }
+ #next-btn,#restart-btn:hover  {
+     background-color: #150f66;
+     color: #fff;
+ }
+ #next-btn,#restart-btn:active  {
+     background-color: #11088d;
+     color: #fff;
+ }
+ 
+ .btn {
+     background-color: #fff;
+     color: #222;
+     width: 90%;
+     font-weight: 500;
+     font-size: 15px;
+     margin: 10px;
+     padding: 10px 0; /* Reduced padding for better fit */
+     border: 1px solid #222;
+     border-radius: 8px;
+     text-align: left;
+     cursor: pointer;
+ }
+ 
+ .btn:hover {
+     background-color: #222;
+     color: #fff;
+ }
+ 
+ 
